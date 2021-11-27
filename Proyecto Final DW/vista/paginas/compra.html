@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPRA</title>
+	<!-- css -->
+            <link href="../css/compra.css" rel="stylesheet" type="text/css">
+            <!-- Iconos -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <!-- Slider -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+</head>
+<body>
+    <div class="space-line"></div>
+	
+	<div class="header">
+		<div class= "logo">
+			<img src="../img/logo/logo1.jpeg" class="logo1" alt="logo">
+		</div>
+		
+		<nav class="menu">
+			<a hraf="#" id="menu-icon">
+				<i class="fa fa-bars"></i>
+			</a>
+		<ul>
+			<li>
+				<a href="../../index.html">Home</a>
+			</li>
+			<li>
+				<a href="#for">Comprar</a>
+			</li>
+			<li>
+				<a href="admin.html">Admin</a>
+			</li>
+			<li>
+				<a href=""><i class="fa fa-user"></i></a>
+				<ul class="submenu">
+					<li> <a href="iniciar-sesion.html"> Iniciar sesion </a> </li>
+	  				<li> <a href="registro.html"> Registrarse </a> </li>
+				</ul>
+			</li>
+		</ul>
+		</nav>
+	</div>
+	
+	<section class="contain" >
+		<div class="text1">
+            <h2>Nro Nicho : 12345</h2>
+			<p>Ataud: Un ataud hecho de madera masiza, listo para ser usado y puesto en un nicho.</p>
+			<img src="../img/compra/c1.png">
+		</div>
+	</section>
+	
+	<section class="contain">
+		<div class="text2">
+            <h2>Nro Nicho : 23456</h2>
+			<p>Nicho: Puede elegir personalmente la ubicacion del nicho que desea comprar.</p>
+			<img src="../img/compra/c2.jpg">
+		</div>
+	</section>
+		
+	<section class="contain">
+		<div class="text1">
+            <h2>Nro Nicho : 34567</h2>
+			<p>Cenizas: Usted podra poner los restos de cenizas de su difunto en nuestros altares.</p>
+			<img src="../img/compra/c3.jpg">
+		</div>
+	</section>
+	
+	
+	<form method="post" class="formulario" id="for">
+            <h1>FORMULARIO DE COMPRA</h1>
+            <ul>
+                <label>CEDULA DE INDENTIDAD : <input type="number" name="ci" id="ci"></label>
+				<p></p>
+					 <label>TIPO :<input type="radio" name="select" value="PERPETUO" class="campo">PERPETUO</label>
+                     <label><input type="radio" name="select" value="TEMPORAL" class="campo"> TEMPORAL</label>
+				<p></p>
+                    <label>TIEMPO : <input type="text" readonly id="seleccionar" name="tiempo"> </label>
+				<p></p>
+				<p>METODO DE PAGO :</p>
+					 <label><input type="radio" name="pago" value="TARGETA DE CREDITO" class="campo">TARGETA DE CREDITO</label>
+                     <label><input type="radio" name="pago" value="PAYPAL" class="campo">PAYPAL</label>
+				<p></p>
+                     <label>NUMERO NICHO : <input type="text" name="nronicho" id="nicho"></label>
+
+            </ul>
+                <input type="submit" value="COMPRAR" id="redireccionar">
+            </form>
+	
+	<footer>
+			<div class="menu-footer">
+				<h2>Contactos</h2>
+				<p>Para contactar con la administracion para que le ayude con su duda marque al siguiente
+				numero:</p>
+				<h3>+591 639874512<span><i class="fa fa-phone"></i></span></h3>			
+			</div>
+			
+			<div class="icon-text-text">
+				<h2>Nuestras redes sociales</h2>
+					<ul class="social">
+						<li>
+							<a href="mailto:Pipok's@gmail.com" target="_blank">
+								<i class="fa fa-envelope"></i>
+							</a>
+						</li>
+						<li>
+							<a href="http://facebook.com/Pipok's" target="_blank">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a href="http://twitter.com/Pipok's" target="_blank">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="http://twitch.com/Pipok's" target="_blank">
+								<i class="fa fa-twitch"></i>
+							</a>
+						</li>
+						<li>
+							<a href="http://youtube.com/Pipok's" target="_blank">
+								<i class="fa fa-youtube"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+		
+		
+			
+	</footer>
+	
+	<footer class="footer2">
+		
+		<div class="copy">
+			<p>
+				All rights reserved &copy; <a href="#" target="_blank">Pipok´s</a>
+			</p>
+		</div>
+	</footer>
+	
+	<script src="../script/comprascript.js"></script>
+	
+	
+</body>
+</html>

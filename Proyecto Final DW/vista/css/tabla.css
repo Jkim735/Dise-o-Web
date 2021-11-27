@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background: #666464;
+	margin: 0;
+	padding: 0;
+}
+
+.space-line{
+	clear: both;
+	padding: 0.5%;
+	background: #000000;
+}
+
+.header{
+	width: 100%;
+	height: 100px;
+	top: 0;
+	left: 0;
+	background-color: #F7F7F7;
+	display: flex;
+	padding-left: 4%;
+	padding-right: 4%;
+	box-sizing: border-box;
+}
+
+.logo{
+	flex: 1 1;
+}
+
+.logo1{
+	margin: 10px;
+	float: left;
+	width: 200px;
+}
+
+.menu{
+	float: right;
+	padding: 13px;
+}
+
+ul{
+	list-style: none;
+}
+
+nav ul li{
+	font-size: 150%;
+	display: inline-block;
+	/* float: left; */
+	padding: 10px;
+}
+
+nav ul li a{
+	color: #9969A8;
+}
+
+td{
+	padding: 15px;
+	box-sizing: border-box;
+	text-align: center;
+	color: white;
+	font-size: 28px;
+	border: 1px solid white;
+}
+table{
+	border: 1px solid white;
+	box-shadow: 1px 1px 1px white;
+}
+
+footer{
+	background: #230028;
+	width: 100%;
+	overflow: auto;
+	display: flex;
+	flex-flow: row wrap;
+	flex: 1 1 100%;
+	justify-content: space-between;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+}
+
+.menu-footer{
+	text-align: left;
+	padding-left: 5%;
+}
+
+.menu-footer p{
+	width: 40%;
+}
+
+.menu-footer{
+	color: #FFFFFF;
+}
+
+.menu-footer a{
+	font-size: 160%;
+	color: #330E46;
+	font-weight: 300;
+}
+
+.menu-footer a:hover{
+	color: #941517;
+}
+
+.icon-text-text{
+	padding-right: 5%;
+}
+
+.icon-text-text h2{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.social{
+	text-align: center;
+}
+
+.social li{
+	display: inline;
+}
+
+.social i{
+	font-size: 200%;
+	margin: 1%;
+	padding: 5%;
+	color: #9E9393;
+}
+
+.social i:hover{
+	color: #83659C;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.copy a{
+	text-align: center;
+	color: #4D4D4D;
+	font-size: 30px;
+}
+
+.formulario {
+    
+    display: flex;
+    justify-content: center;
+    flex: 1 1 100%;
+    align-items: center;
+    flex-flow: column nowrap;
+    box-shadow: 0px 0px 25px black;
+    color: darkblue;
+    margin: 5% 30%;
+    border-radius: 10px;
+}
+
+.formulario > ul input{
+    border: none;
+    border-bottom: 5px solid black;
+    color: black;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 22px;
+}
+.formulario > input:nth-child(3){
+    border: 3px solid darkblue;
+    background-color: rgba(0, 0, 0, 0.514) ;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.formulario > input:nth-child(3):hover{
+    background-color: white;
+    color: black;
+}
+.formulario > ul p{
+    font-size: 27px;
+}
+.formulario > h1{
+    text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+
+.tabtex{
+	font-size: 45px;
+	text-align: center;
+}
+
+.centrar{
+	font-size: 30px;
+	display: flex;
+	flex-flow: column nowrap;
+	flex: 1 1 100%;
+	align-items: center;
+
+}
+
+
+#menu-icon{
+	display: none;
+	font-size: 50px;
+}
+
+@media screen and (max-width: 768px){
+	p{
+		font-size: 90%;
+	}
+	h1{
+		font-size: 140%;
+	}
+	header{
+		height: 80px;
+		position: relative;
+	}
+	header #logo{
+		margin: 15px 0 20px -25px;
+	}
+	#menu-icon{
+		display: inline-block;
+	}
+	menu li a:hover{
+	color: black;
+}
+	nav:hover ul{
+		display: block;
+	}
+	nav ul, nav:active ul{
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		padding: 20px;
+		background: #504358;
+		border: 1px solid black;
+		right: 20px;
+		width: 30%;
+		opacity: .95;
+	}
+	nav li{
+		text-align: center;
+		width: 100%;
+	}
+		.formulario {
+		
+		display: flex;
+		justify-content: center;
+		flex: 1 1 100%;
+		align-items: center;
+		flex-flow: column nowrap;
+		box-shadow: 0px 0px 25px black;
+		color: darkblue;
+		margin: 8% 20%;
+		border-radius: 10px;
+		background: #FFFFFF;
+	}
+
+	.formulario ul p{
+		font-size: 100%;
+	}
+	.formulario > ul input{
+		border: none;
+		border-bottom: 2px solid black;
+		color: black;
+		background: transparent;
+		border-radius: 2px;
+		font-size: 14px;
+	}
+	.formulario > input:nth-child(3){
+		border: 1px solid darkblue;
+		background-color: rgba(0, 0, 0, 0.514) ;
+		color: white;
+		font-size: 20px;
+		padding: 3px;
+		box-sizing: border-box;
+		border-radius: 2px;
+		margin-bottom: 20px;
+	}
+	.submenu{
+		position:absolute;
+		background:#504358;
+		visibility:hidden;
+		opacity:0;
+		transition:opacity;
+		margin-right: 35px;
+		padding-left: 0%;
+	}
+	.submenu li a{
+		display:block;
+		text-align:center;
+		font-size: 15px;
+		color: black;
+	}
+	.icon-text-text{
+		padding-left: 55%;
+		padding-bottom: -5%;
+	}
+}
+
